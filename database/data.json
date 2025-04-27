@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "sender": "winner@lottoresults.com",
+    "subject": "You've won the jackpot!",
+    "date": "2025-04-01",
+    "spam": true,
+    "content": "Congratulations! You've been selected as the lucky winner of our $10 million jackpot. To claim your prize, please provide your bank details and identification. Act now before this once-in-a-lifetime opportunity expires. Remember, this is a limited time offer!"
+  },
+  {
+    "id": 2,
+    "sender": "deals@cheaptravelz.com",
+    "subject": "Insane travel deals just for you!",
+    "date": "2025-04-01",
+    "spam": true,
+    "content": "Fly to exotic destinations for less than $100! Our spring blowout sale includes round-trip tickets to over 50 locations worldwide. No hidden fees. Book today and travel tomorrow. But hurry \u2014 offers expire in 24 hours!"
+  },
+  {
+    "id": 3,
+    "sender": "lucy.wilson@workmail.com",
+    "subject": "Weekly team meeting notes",
+    "date": "2025-04-02",
+    "spam": false,
+    "content": "Hi all, here are the notes from our weekly team meeting. We covered updates on the quarterly OKRs, client deliverables, and upcoming deadlines. Please review and add your action items. Let me know if I missed anything important!"
+  },
+  {
+    "id": 4,
+    "sender": "offers@miraclepills.net",
+    "subject": "Get slim in 5 days \u2013 no exercise!",
+    "date": "2025-04-02",
+    "spam": true,
+    "content": "Lose 15 pounds in 5 days with our revolutionary herbal supplement. No dieting or exercise required. Featured on multiple health blogs. 100% money-back guarantee. Claim your free trial bottle today before supplies run out!"
+  },
+  {
+    "id": 5,
+    "sender": "david.cho@startupmail.com",
+    "subject": "Re: Budget approval for Q2",
+    "date": "2025-04-03",
+    "spam": false,
+    "content": "Thanks for sharing the updated budget. I've reviewed the figures and everything looks good for approval. Just waiting on final confirmation from finance. Please hold off on distribution until we get the green light from them."
+  },
+  {
+    "id": 6,
+    "sender": "chris.allen@spamoffers.net",
+    "subject": "You're pre-approved for a $20,000 loan!",
+    "date": "2025-03-22",
+    "spam": true,
+    "content": "Get rid of debt today! Consolidate with our easy loan plans."
+  },
+  {
+    "id": 7,
+    "sender": "sophia.hall@spamoffers.net",
+    "subject": "Urgent: Verify your account now!",
+    "date": "2025-03-30",
+    "spam": true,
+    "content": "Get rid of debt today! Consolidate with our easy loan plans."
+  },
+  {
+    "id": 8,
+    "sender": "anna.clark@spamoffers.net",
+    "subject": "Increase your credit score instantly!",
+    "date": "2025-03-12",
+    "spam": true,
+    "content": "Boost your website traffic 100x in one week. No effort required!"
+  },
+  {
+    "id": 9,
+    "sender": "sophia.allen@spamoffers.net",
+    "subject": "Secret investment plan revealed!",
+    "date": "2025-04-03",
+    "spam": true,
+    "content": "Boost your website traffic 100x in one week. No effort required!"
+  },
+  {
+    "id": 10,
+    "sender": "chris.lee@spamoffers.net",
+    "subject": "Increase your credit score instantly!",
+    "date": "2025-04-04",
+    "spam": true,
+    "content": "Act now to claim your $1,000 Walmart gift card. Just complete a quick survey!"
+  },
+  {
+    "id": 11,
+    "sender": "anna.walker@spamoffers.net",
+    "subject": "Increase your credit score instantly!",
+    "date": "2025-04-03",
+    "spam": true,
+    "content": "Eliminate 99.9% of viruses with this one-click antivirus tool."
+  },
+  {
+    "id": 12,
+    "sender": "john.walker@spamoffers.net",
+    "subject": "Cheap software licenses available!",
+    "date": "2025-03-28",
+    "spam": true,
+    "content": "Join our online training and earn a professional certification instantly!"
+  },
+  {
+    "id": 13,
+    "sender": "mark.walker@spamoffers.net",
+    "subject": "Earn money in your sleep!",
+    "date": "2025-03-10",
+    "spam": true,
+    "content": "Act now to claim your $1,000 Walmart gift card. Just complete a quick survey!"
+  },
+  {
+    "id": 14,
+    "sender": "mark.clark@spamoffers.net",
+    "subject": "You're pre-approved for a $20,000 loan!",
+    "date": "2025-04-02",
+    "spam": true,
+    "content": "Limited-time opportunity to invest in a hidden cryptocurrency gem."
+  },
+  {
+    "id": 15,
+    "sender": "chris.allen@spamoffers.net",
+    "subject": "This deal won't last \u2013 act fast!",
+    "date": "2025-03-25",
+    "spam": true,
+    "content": "Limited-time opportunity to invest in a hidden cryptocurrency gem."
+  },
+  {
+    "id": 16,
+    "sender": "james.davis@spamoffers.net",
+    "subject": "Claim your exclusive prize now!",
+    "date": "2025-04-02",
+    "spam": true,
+    "content": "Get rid of debt today! Consolidate with our easy loan plans."
+  },
+  {
+    "id": 17,
+    "sender": "mark.brown@spamoffers.net",
+    "subject": "Urgent: Verify your account now!",
+    "date": "2025-04-04",
+    "spam": true,
+    "content": "This one weird trick can help you reduce belly fat. Doctors hate it!"
+  },
+  {
+    "id": 18,
+    "sender": "anna.lewis@spamoffers.net",
+    "subject": "Make $5000/week working from home!",
+    "date": "2025-03-28",
+    "spam": true,
+    "content": "Eliminate 99.9% of viruses with this one-click antivirus tool."
+  },
+  {
+    "id": 19,
+    "sender": "sophia.clark@spamoffers.net",
+    "subject": "Cheap software licenses available!",
+    "date": "2025-03-09",
+    "spam": true,
+    "content": "This one weird trick can help you reduce belly fat. Doctors hate it!"
+  },
+  {
+    "id": 20,
+    "sender": "chris.clark@spamoffers.net",
+    "subject": "Increase your credit score instantly!",
+    "date": "2025-03-07",
+    "spam": true,
+    "content": "Eliminate 99.9% of viruses with this one-click antivirus tool."
+  },
+  {
+    "id": 21,
+    "sender": "tom.clark@spamoffers.net",
+    "subject": "This deal won't last \u2013 act fast!",
+    "date": "2025-03-20",
+    "spam": true,
+    "content": "Get rid of debt today! Consolidate with our easy loan plans."
+  },
+  {
+    "id": 22,
+    "sender": "chris.walker@spamoffers.net",
+    "subject": "This deal won't last \u2013 act fast!",
+    "date": "2025-03-10",
+    "spam": true,
+    "content": "We noticed unusual activity on your account. Please verify now to avoid deactivation."
+  },
+  {
+    "id": 23,
+    "sender": "anna.davis@spamoffers.net",
+    "subject": "Increase your credit score instantly!",
+    "date": "2025-03-26",
+    "spam": true,
+    "content": "Get rid of debt today! Consolidate with our easy loan plans."
+  },
+  {
+    "id": 24,
+    "sender": "james.lewis@spamoffers.net",
+    "subject": "Cheap software licenses available!",
+    "date": "2025-04-03",
+    "spam": true,
+    "content": "We noticed unusual activity on your account. Please verify now to avoid deactivation."
+  },
+  {
+    "id": 25,
+    "sender": "laura.walker@spamoffers.net",
+    "subject": "Secret investment plan revealed!",
+    "date": "2025-03-27",
+    "spam": true,
+    "content": "Join our online training and earn a professional certification instantly!"
+  },
+  {
+    "id": 26,
+    "sender": "james.lee@spamoffers.net",
+    "subject": "This deal won't last \u2013 act fast!",
+    "date": "2025-04-04",
+    "spam": true,
+    "content": "Act now to claim your $1,000 Walmart gift card. Just complete a quick survey!"
+  },
+  {
+    "id": 27,
+    "sender": "mark.brown@spamoffers.net",
+    "subject": "Cheap software licenses available!",
+    "date": "2025-03-19",
+    "spam": true,
+    "content": "Limited-time opportunity to invest in a hidden cryptocurrency gem."
+  },
+  {
+    "id": 28,
+    "sender": "anna.walker@spamoffers.net",
+    "subject": "Claim your exclusive prize now!",
+    "date": "2025-04-02",
+    "spam": true,
+    "content": "We noticed unusual activity on your account. Please verify now to avoid deactivation."
+  },
+  {
+    "id": 29,
+    "sender": "james.clark@spamoffers.net",
+    "subject": "Urgent: Verify your account now!",
+    "date": "2025-03-10",
+    "spam": true,
+    "content": "Boost your website traffic 100x in one week. No effort required!"
+  },
+  {
+    "id": 30,
+    "sender": "chris.clark@spamoffers.net",
+    "subject": "Claim your exclusive prize now!",
+    "date": "2025-03-22",
+    "spam": true,
+    "content": "Limited-time opportunity to invest in a hidden cryptocurrency gem."
+  },
+  {
+    "id": 31,
+    "sender": "john.lewis@spamoffers.net",
+    "subject": "You're pre-approved for a $20,000 loan!",
+    "date": "2025-03-27",
+    "spam": true,
+    "content": "Limited-time opportunity to invest in a hidden cryptocurrency gem."
+  },
+  {
+    "id": 32,
+    "sender": "rachel.davis@spamoffers.net",
+    "subject": "Increase your credit score instantly!",
+    "date": "2025-03-20",
+    "spam": true,
+    "content": "Act now to claim your $1,000 Walmart gift card. Just complete a quick survey!"
+  },
+  {
+    "id": 33,
+    "sender": "mark.lewis@spamoffers.net",
+    "subject": "Urgent: Verify your account now!",
+    "date": "2025-03-10",
+    "spam": true,
+    "content": "Join our online training and earn a professional certification instantly!"
+  },
+  {
+    "id": 34,
+    "sender": "chris.hall@spamoffers.net",
+    "subject": "Make $5000/week working from home!",
+    "date": "2025-03-29",
+    "spam": true,
+    "content": "Get rid of debt today! Consolidate with our easy loan plans."
+  },
+  {
+    "id": 35,
+    "sender": "laura.lee@spamoffers.net",
+    "subject": "Secret investment plan revealed!",
+    "date": "2025-03-13",
+    "spam": true,
+    "content": "Get rid of debt today! Consolidate with our easy loan plans."
+  },
+  {
+    "id": 36,
+    "sender": "emily.brown@businessmail.com",
+    "subject": "New task assignment",
+    "date": "2025-03-12",
+    "spam": false,
+    "content": "Thanks for submitting your reports on time. We're seeing great consistency. Keep up the good work! Reach out if you need help analyzing metrics."
+  },
+  {
+    "id": 37,
+    "sender": "chris.lewis@businessmail.com",
+    "subject": "System maintenance scheduled",
+    "date": "2025-03-19",
+    "spam": false,
+    "content": "Thanks for submitting your reports on time. We're seeing great consistency. Keep up the good work! Reach out if you need help analyzing metrics."
+  },
+  {
+    "id": 38,
+    "sender": "mark.brown@businessmail.com",
+    "subject": "Client feedback on design draft",
+    "date": "2025-03-21",
+    "spam": false,
+    "content": "Attached is the client feedback from our last design review. They\u2019ve requested a few changes to the color scheme and layout. Let\u2019s review it during tomorrow\u2019s call."
+  },
+  {
+    "id": 39,
+    "sender": "tom.allen@businessmail.com",
+    "subject": "Reminder: Timesheet submission due",
+    "date": "2025-03-16",
+    "spam": false,
+    "content": "Attached is the client feedback from our last design review. They\u2019ve requested a few changes to the color scheme and layout. Let\u2019s review it during tomorrow\u2019s call."
+  },
+  {
+    "id": 40,
+    "sender": "sophia.johnson@businessmail.com",
+    "subject": "HR policy updates",
+    "date": "2025-03-19",
+    "spam": false,
+    "content": "Attached is the client feedback from our last design review. They\u2019ve requested a few changes to the color scheme and layout. Let\u2019s review it during tomorrow\u2019s call."
+  },
+  {
+    "id": 41,
+    "sender": "tom.smith@businessmail.com",
+    "subject": "New task assignment",
+    "date": "2025-03-28",
+    "spam": false,
+    "content": "Don't forget, our lunch-and-learn session on accessibility design is this Friday at noon. We'll provide pizza and drinks."
+  },
+  {
+    "id": 42,
+    "sender": "mark.allen@businessmail.com",
+    "subject": "Weekly progress update",
+    "date": "2025-03-17",
+    "spam": false,
+    "content": "Hey team, just a reminder that the sprint demo is on Friday. Please have all tickets marked 'ready for demo' by Thursday afternoon. Let me know if you need help prepping."
+  },
+  {
+    "id": 43,
+    "sender": "emily.davis@businessmail.com",
+    "subject": "Client feedback on design draft",
+    "date": "2025-04-01",
+    "spam": false,
+    "content": "Don't forget, our lunch-and-learn session on accessibility design is this Friday at noon. We'll provide pizza and drinks."
+  },
+  {
+    "id": 44,
+    "sender": "john.brown@businessmail.com",
+    "subject": "Weekly progress update",
+    "date": "2025-03-13",
+    "spam": false,
+    "content": "Hey team, just a reminder that the sprint demo is on Friday. Please have all tickets marked 'ready for demo' by Thursday afternoon. Let me know if you need help prepping."
+  },
+  {
+    "id": 45,
+    "sender": "rachel.johnson@businessmail.com",
+    "subject": "Reminder: Timesheet submission due",
+    "date": "2025-03-24",
+    "spam": false,
+    "content": "Hey team, just a reminder that the sprint demo is on Friday. Please have all tickets marked 'ready for demo' by Thursday afternoon. Let me know if you need help prepping."
+  },
+  {
+    "id": 46,
+    "sender": "laura.johnson@businessmail.com",
+    "subject": "New task assignment",
+    "date": "2025-03-07",
+    "spam": false,
+    "content": "Hi everyone, we\u2019ll be conducting a mock drill next Tuesday. Please familiarize yourself with the updated safety protocol documents attached."
+  },
+  {
+    "id": 47,
+    "sender": "laura.smith@businessmail.com",
+    "subject": "System maintenance scheduled",
+    "date": "2025-03-14",
+    "spam": false,
+    "content": "Don't forget, our lunch-and-learn session on accessibility design is this Friday at noon. We'll provide pizza and drinks."
+  },
+  {
+    "id": 48,
+    "sender": "anna.allen@businessmail.com",
+    "subject": "System maintenance scheduled",
+    "date": "2025-03-15",
+    "spam": false,
+    "content": "Hi everyone, we\u2019ll be conducting a mock drill next Tuesday. Please familiarize yourself with the updated safety protocol documents attached."
+  },
+  {
+    "id": 49,
+    "sender": "john.walker@businessmail.com",
+    "subject": "Upcoming sprint planning meeting",
+    "date": "2025-03-13",
+    "spam": false,
+    "content": "Don't forget, our lunch-and-learn session on accessibility design is this Friday at noon. We'll provide pizza and drinks."
+  },
+  {
+    "id": 50,
+    "sender": "anna.davis@businessmail.com",
+    "subject": "Lunch plans for Friday?",
+    "date": "2025-03-19",
+    "spam": false,
+    "content": "Don't forget, our lunch-and-learn session on accessibility design is this Friday at noon. We'll provide pizza and drinks."
+  }
+]

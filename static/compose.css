@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #f1f3f4, #e2e6ea);
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.compose-box {
+  background-color: #fff;
+  width: 600px;
+  max-width: 90%;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  padding: 25px 30px 30px;
+  position: relative;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.compose-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #202124;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.close-btn:hover {
+  color: #e53935;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #1a73e8;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 180px;
+  line-height: 1.5;
+}
+
+.send-btn {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 26px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  float: right;
+  margin-top: 5px;
+}
+
+.send-btn:hover {
+  background-color: #1669d2;
+}

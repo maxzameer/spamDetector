@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ email.subject }} - Gmail</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/static/content.css" />
+    <script>
+      function goBack() {
+        window.location.href = "{{ url_for('email_list') }}";
+      }
+
+      function deleteEmail() {
+        alert("Email deleted (fake action)");
+      }
+
+      function toggleStar() {
+        alert("Star toggled (fake action)");
+      }
+
+      function replyEmail() {
+        alert("Reply clicked (fake action)");
+      }
+
+      function forwardEmail() {
+        alert("Forward clicked (fake action)");
+      }
+
+      function closeSpamWarning() {
+        document.getElementById("spamWarning").style.display = "none";
+      }
+
+      window.addEventListener("load", function () {
+        document.getElementById("spamWarning").style.display = "flex";
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <ul>
+        <li class="active">📥 Inbox <span>{{ inbox_count }}</span></li>
+        <li>⭐ Starred <span>{{ starred_count }}</span></li>
+        <li>📤 Sent</li>
+        <li>📝 Drafts <span>{{ drafts_count }}</span></li>
+        <li>🗑️ Trash</li>
+      </ul>
+    </div>
+
+    <!-- Main Email View -->
+    <div class="main">
+      <!-- Top Toolbar -->
+      <div class="top-toolbar">
+        <i onclick="goBack()">🔙</i>
+        <i onclick="deleteEmail()">🗑️</i>
+        <i onclick="toggleStar()">⭐</i>
+        <i>✉️</i>
+      </div>
+
+      <!-- Email Header -->
+      <div class="email-header">
+        <div class="email-subject">{{ email.subject }}</div>
+        <div class="email-meta">
+          <div class="avatar">S</div>
+          <div class="email-meta-details">
+            <strong>{{ email.sender }}</strong> &lt;{{ email.sender_email
+            }}&gt;<br />
+            To: You<br />
+            {{ email.date }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Email Body -->
+      <div class="email-body">{{ email.content }}</div>
+
+      <!-- Footer Actions -->
+      <div class="email-footer">
+        <button class="btn btn-reply" onclick="replyEmail()">↩️ Reply</button>
+        <button class="btn btn-forward" onclick="forwardEmail()">
+          ➡️ Forward
+        </button>
+      </div>
+    </div>
+
+    {% if isSpam == 'spam' %}
+    <div class="spam-warning" id="spamWarning">
+      <button onclick="closeSpamWarning()">✖</button>
+      <h2>⚠️ This message may be spam.</h2>
+      <h3>The sender and content might be suspicious.</h3>
+    </div>
+    {% endif %}
+  </body>
+</html>

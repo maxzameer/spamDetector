@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Inbox</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/list.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <a href="/compose">
+        <button>✉️ Send Mail</button>
+      </a>
+
+      <ul>
+        <li class="active">📥 Inbox <span>{{ inbox_count }}</span></li>
+        <li>⭐ Starred <span>{{ starred_count }}</span></li>
+        <li>📤 Sent</li>
+        <li>📝 Drafts <span>{{ drafts_count }}</span></li>
+        <li>🗑️ Trash</li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="search-bar">
+        <input type="text" placeholder="🔍 Search emails..." />
+      </div>
+
+      <div class="email-list">
+        {% for email in emails %}
+        <a href="{{ url_for('email_content', email_id=email.id) }}">
+          <div class="email-item">
+            <div class="email-left">
+              <div class="email-sender">
+                {% if email.starred %}
+                <span class="starred">★</span>
+                {% endif %} {{ email.sender }}
+              </div>
+
+              <div class="email-subject">{{ email.subject }}</div>
+              <div class="email-snippet">{{ email.snippet }}</div>
+            </div>
+            <div class="email-date">{{ email.date }}</div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>
